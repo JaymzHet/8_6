@@ -1,13 +1,13 @@
-var a = prompt('Podaj wartość pierwszej zmiennej', a);
-var b = prompt('Podaj wartość drugiej zmiennej', b);
-var value = (a * a) - (2 * a * b) - (b * b);
+var a = 5,
+    b = 10,
+    value = (a * a) - (2 * a * b) + (b * b);
 
 if (value > 0) {
-	console.log ('Wynik dodatni')
+	console.log('number is over 0')
 }
 else if (value < 0) {
-	console.log ('Wynik ujemny')
+	console.log('number is below 0')
 }
 else {
-	console.log ('Wynik jest równy 0')
+	console.log('number equal 0')
 }
